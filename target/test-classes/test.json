@@ -1,0 +1,451 @@
+[
+  {
+    "_id": "1533aad7-77f3-4d4d-96d6-8c197e7949b6",
+    "timestamp": 1593871387009,
+    "_expedia": {
+      "event_header": {
+        "event_uuid": "1533aad7-77f3-4d4d-96d6-8c197e7949b6",
+        "published_timestamp": 1593871387009,
+        "event_context_ids": [
+          {
+            "type": "pageLoaded",
+            "id": "6f1da85e-1d8c-4d40-a4db-ecd4d110c170"
+          },
+          {
+            "type": "searchResultsSorted",
+            "id": "b474dc36-754c-4d99-9b9e-5f94bb2f2922"
+          },
+          {
+            "type": "searchResultsViewed",
+            "id": "1533aad7-77f3-4d4d-96d6-8c197e7949b6"
+          }
+        ]
+      },
+      "event": {
+        "event_type": "Page View",
+        "event_category": "Search",
+        "event_name": "Search Results",
+        "page_name": "Search Results",
+        "page_product_line": "Lodging"
+      },
+      "identifiers": {
+        "cross_domain_id": null,
+        "device_user_agent_id": "d59646d8-46d9-481c-b7c9-dbf24bed528c",
+        "session_id": "64158ac8-9c04-4399-b291-5c4d19f3170b"
+      },
+      "point_of_sale": {
+        "point_of_sale": "HCOM_AU",
+        "locale": "en_AU",
+        "site_currency_code": "AUD",
+        "domain": "au.staging1-hotels.com",
+        "eg_brand_name": "Hotels.com",
+        "sub_brand_name": null,
+        "management_unit_code": null,
+        "jurisdiction_code": null,
+        "company_code": 10113,
+        "white_label_bool": false
+      },
+      "device_information": {
+        "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+        "device_type": "Phone",
+        "browser_name": "Safari",
+        "browser_major_version": "13",
+        "device_os": "iOS",
+        "device_os_version": "13.2.3"
+      },
+      "experience": {
+        "experience_type": "Web",
+        "viewport_width": 375,
+        "viewport_height": 812,
+        "resolution_width": 375,
+        "resolution_height": 812
+      },
+      "timestamps": {
+        "received_at": 1593871384232
+      },
+      "geo_location": null,
+      "request": {
+        "request_url": "https://au.staging1-hotels.com/search.do?destination-id=549499&q-check-in=2020-07-30&q-check-out=2020-07-31&q-rooms=1&q-room-0-adults=1&q-room-0-children=0&sort-order=PRICE_HIGHEST_FIRST&pos=HCOM_AU&locale=en_AU",
+        "referrer_url": "http://localhost:3000/search.do?destination-id=549499&q-check-in=2020-07-30&q-check-out=2020-07-31&q-rooms=1&q-room-0-adults=1&q-room-0-children=0&sort-order=PRICE_HIGHEST_FIRST"
+      },
+      "privacy": {
+        "consent_status_bool": true
+      },
+      "user": {
+        "brand_customer_id": null,
+        "parallax_hashed_email_address": null,
+        "loyalty": {
+          "member_tier": "NotApplicable",
+          "program_name": "Hotels.com Rewards",
+          "confirmed_reward_units": null,
+          "reward_unit_type": "ROOM-NIGHTS"
+        }
+      },
+      "marketing": {
+        "marketing_entry_bool": false,
+        "same_session": {
+          "marketing_code": null,
+          "marketing_channel": null,
+          "marketing_sub_channel": null
+        }
+      },
+      "product": null,
+      "search_destination": {
+        "destination_geo_system": "GAIA",
+        "destination_geo_id": "2114",
+        "destination_full_name": "London, England, United Kingdom",
+        "origin_geo_id": null,
+        "origin_full_name": null
+      },
+      "search_request": {
+        "search_id": "33c88440-3011-4b0d-8e3a-f852cc03f2d6",
+        "search_query": "London, England, United Kingdom",
+        "current_location_search_bool": false,
+        "trip_start_date": "2020-07-30",
+        "trip_end_date": "2020-07-31",
+        "number_of_adults": 1,
+        "number_of_children": 0,
+        "number_of_infants": null,
+        "number_of_pets": null,
+        "number_of_rooms": 1,
+        "products_list": [
+          {
+            "product_id": "23321129",
+            "supply_id": "24",
+            "product_line": "Lodging",
+            "product_search_attributes": {
+              "pinned_bool": false,
+              "sponsored_bool": false,
+              "product_position": 1
+            },
+            "rating": {
+              "guest_rating": null,
+              "guest_rating_count": null,
+              "star_rating": 4
+            },
+            "pricing": {
+              "currency_displayed": "AUD",
+              "price_displayed": 3587.62,
+              "price_strikethrough": null,
+              "price_base_amount": null,
+              "price_type": "Total",
+              "price_change_bool": null,
+              "additional_fees": null
+            },
+            "amenities_shown": [
+              "6"
+            ],
+            "lodging_product": {
+              "property_brand_id": null,
+              "rooms": []
+            },
+            "flight_product": null,
+            "car_product": null,
+            "cruise_product": null,
+            "package_bool": false
+          },
+          {
+            "product_id": "13086870",
+            "supply_id": "24",
+            "product_line": "Lodging",
+            "product_search_attributes": {
+              "pinned_bool": false,
+              "sponsored_bool": false,
+              "product_position": 2
+            },
+            "rating": {
+              "guest_rating": 8.4,
+              "guest_rating_count": 5,
+              "star_rating": 4
+            },
+            "pricing": {
+              "currency_displayed": "AUD",
+              "price_displayed": 2814.62,
+              "price_strikethrough": null,
+              "price_base_amount": null,
+              "price_type": "Total",
+              "price_change_bool": null,
+              "additional_fees": null
+            },
+            "amenities_shown": [
+              "6",
+              "8",
+              "11"
+            ],
+            "lodging_product": {
+              "property_brand_id": null,
+              "rooms": []
+            },
+            "flight_product": null,
+            "car_product": null,
+            "cruise_product": null,
+            "package_bool": false
+          },
+          {
+            "product_id": "15118004",
+            "supply_id": "24",
+            "product_line": "Lodging",
+            "product_search_attributes": {
+              "pinned_bool": false,
+              "sponsored_bool": false,
+              "product_position": 3
+            },
+            "rating": {
+              "guest_rating": 9,
+              "guest_rating_count": 92,
+              "star_rating": 4
+            },
+            "pricing": {
+              "currency_displayed": "AUD",
+              "price_displayed": null,
+              "price_strikethrough": null,
+              "price_base_amount": null,
+              "price_type": "Total",
+              "price_change_bool": null,
+              "additional_fees": null
+            },
+            "amenities_shown": [
+              "2",
+              "4",
+              "10",
+              "12"
+            ],
+            "lodging_product": {
+              "property_brand_id": null,
+              "rooms": []
+            },
+            "flight_product": null,
+            "car_product": null,
+            "cruise_product": null,
+            "package_bool": false
+          },
+          {
+            "product_id": "45643939",
+            "supply_id": "24",
+            "product_line": "Lodging",
+            "product_search_attributes": {
+              "pinned_bool": false,
+              "sponsored_bool": false,
+              "product_position": 4
+            },
+            "rating": {
+              "guest_rating": null,
+              "guest_rating_count": null,
+              "star_rating": 0
+            },
+            "pricing": {
+              "currency_displayed": "AUD",
+              "price_displayed": 2532,
+              "price_strikethrough": null,
+              "price_base_amount": null,
+              "price_type": "Total",
+              "price_change_bool": null,
+              "additional_fees": null
+            },
+            "amenities_shown": [
+              "2",
+              "11"
+            ],
+            "lodging_product": {
+              "property_brand_id": null,
+              "rooms": []
+            },
+            "flight_product": null,
+            "car_product": null,
+            "cruise_product": null,
+            "package_bool": false
+          },
+          {
+            "product_id": "26497705",
+            "supply_id": "24",
+            "product_line": "Lodging",
+            "product_search_attributes": {
+              "pinned_bool": false,
+              "sponsored_bool": false,
+              "product_position": 5
+            },
+            "rating": {
+              "guest_rating": null,
+              "guest_rating_count": null,
+              "star_rating": 3
+            },
+            "pricing": {
+              "currency_displayed": "AUD",
+              "price_displayed": 2397.14,
+              "price_strikethrough": null,
+              "price_base_amount": null,
+              "price_type": "Total",
+              "price_change_bool": null,
+              "additional_fees": null
+            },
+            "amenities_shown": [
+              "2"
+            ],
+            "lodging_product": {
+              "property_brand_id": null,
+              "rooms": []
+            },
+            "flight_product": null,
+            "car_product": null,
+            "cruise_product": null,
+            "package_bool": false
+          },
+          {
+            "product_id": "3860221",
+            "supply_id": "24",
+            "product_line": "Lodging",
+            "product_search_attributes": {
+              "pinned_bool": false,
+              "sponsored_bool": false,
+              "product_position": 6
+            },
+            "rating": {
+              "guest_rating": null,
+              "guest_rating_count": null,
+              "star_rating": 5
+            },
+            "pricing": {
+              "currency_displayed": "AUD",
+              "price_displayed": 2364.76,
+              "price_strikethrough": null,
+              "price_base_amount": null,
+              "price_type": "Total",
+              "price_change_bool": null,
+              "additional_fees": null
+            },
+            "amenities_shown": [
+              "2",
+              "4",
+              "8",
+              "10",
+              "12"
+            ],
+            "lodging_product": {
+              "property_brand_id": null,
+              "rooms": []
+            },
+            "flight_product": null,
+            "car_product": null,
+            "cruise_product": null,
+            "package_bool": false
+          },
+          {
+            "product_id": "23207596",
+            "supply_id": "24",
+            "product_line": "Lodging",
+            "product_search_attributes": {
+              "pinned_bool": false,
+              "sponsored_bool": false,
+              "product_position": 7
+            },
+            "rating": {
+              "guest_rating": null,
+              "guest_rating_count": null,
+              "star_rating": 0
+            },
+            "pricing": {
+              "currency_displayed": "AUD",
+              "price_displayed": 2112.63,
+              "price_strikethrough": null,
+              "price_base_amount": null,
+              "price_type": "Total",
+              "price_change_bool": null,
+              "additional_fees": null
+            },
+            "amenities_shown": [
+              "11",
+              "8"
+            ],
+            "lodging_product": {
+              "property_brand_id": null,
+              "rooms": []
+            },
+            "flight_product": null,
+            "car_product": null,
+            "cruise_product": null,
+            "package_bool": false
+          },
+          {
+            "product_id": "4922121",
+            "supply_id": "24",
+            "product_line": "Lodging",
+            "product_search_attributes": {
+              "pinned_bool": false,
+              "sponsored_bool": false,
+              "product_position": 8
+            },
+            "rating": {
+              "guest_rating": 10,
+              "guest_rating_count": 1,
+              "star_rating": 5
+            },
+            "pricing": {
+              "currency_displayed": "AUD",
+              "price_displayed": 2104.03,
+              "price_strikethrough": null,
+              "price_base_amount": null,
+              "price_type": "Total",
+              "price_change_bool": null,
+              "additional_fees": null
+            },
+            "amenities_shown": [
+              "4",
+              "6",
+              "2",
+              "10",
+              "8"
+            ],
+            "lodging_product": {
+              "property_brand_id": null,
+              "rooms": []
+            },
+            "flight_product": null,
+            "car_product": null,
+            "cruise_product": null,
+            "package_bool": false
+          },
+          {
+            "product_id": "20098",
+            "supply_id": "24",
+            "product_line": "Lodging",
+            "product_search_attributes": {
+              "pinned_bool": false,
+              "sponsored_bool": false,
+              "product_position": 9
+            },
+            "rating": {
+              "guest_rating": null,
+              "guest_rating_count": null,
+              "star_rating": 5
+            },
+            "pricing": {
+              "currency_displayed": "AUD",
+              "price_displayed": 2059.06,
+              "price_strikethrough": null,
+              "price_base_amount": null,
+              "price_type": "Total",
+              "price_change_bool": null,
+              "additional_fees": null
+            },
+            "amenities_shown": [
+              "6",
+              "2",
+              "10"
+            ],
+            "lodging_product": {
+              "property_brand_id": null,
+              "rooms": []
+            },
+            "flight_product": null,
+            "car_product": null,
+            "cruise_product": null,
+            "package_bool": false
+          }
+        ],
+        "filters": []
+      },
+      "booking": null,
+      "performance": null
+    }
+  }
+]
